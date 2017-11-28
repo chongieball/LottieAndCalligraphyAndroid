@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.chongieball.lottieandcalligraphydemo.MainActivity"
+    tools:ignore="MissingPrefix">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 1/Default Font"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        fontPath="fonts/MuseoSans-100.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 2/MuseoSans-100"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="77dp"
+        />
+
+    <Button
+        android:id="@+id/btn_3"
+        fontPath="fonts/MuseoSans-300.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 3/MuseoSans-300"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="140dp"/>
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="224dp">
+
+    </FrameLayout>
+</LinearLayout>
